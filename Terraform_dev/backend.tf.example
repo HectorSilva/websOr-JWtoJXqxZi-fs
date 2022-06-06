@@ -1,0 +1,10 @@
+# Terraform cloud as Backend
+terraform {
+  cloud {
+    organization = "sample"
+
+    workspaces {
+      name = "sample-workspace"
+    }
+  }
+}

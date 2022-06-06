@@ -1,0 +1,2 @@
+region            = "us-west-2"
+num_nodes         = 1
